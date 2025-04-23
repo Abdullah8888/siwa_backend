@@ -1,0 +1,28 @@
+{
+  "name": "siwa_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Babatunde",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "buildOnce": "tsc -p .",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/lodash": "^4.17.16",
+    "@types/nodemailer": "^6.4.17",
+    "pino-pretty": "^13.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
